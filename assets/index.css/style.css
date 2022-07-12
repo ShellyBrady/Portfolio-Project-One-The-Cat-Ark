@@ -1,56 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Lato&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+
 
 /*style mobile display*/
 
-.container {
-display: grid;
-height: 100vh;
-grid-template-columns: 5fr;
-grid-template-rows: 250px 150px 200px 250px 250px 250px 250px 150px;
-grid-area: 'header' 'nav' 'about' 'adopt' 'volunteer' 'donations' 'footer';
-grid-gap: 0.2em;
-
-}
 
 /*style header logo*/
 
-header {
-    font-family: 'Lato', sans-serif;
-    color: #013a65;
-    background-color: orange;
+h1 {
+    font-family: 'Georgia', sans-serif;
+    color: #00303f;
     text-align: center;
-    font-size: 28px;
-    padding: 5%;
+    padding: 2%;
+    grid-area: header;
+    font-size: 45pt;
+    
 
-}
 
 /*style nav bar*/
 
-nav {
-    grid-area: nav;
-    background-color: #ff9500;
-    color: #525252;
+.nav-links a {
+    text-decoration: none;
 }
+
+.nav-links li {
+    display: inline;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #dcae1d;
+    color:#00303f;
+}
+
+/*section styling*/
+ h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00303f;
+ }
+
+ p {
+    color: #00303f;
+    font-family: 'Heebo', sans-serif;
+ }
+
 
 /*resize images*/
 
-img{
-    max-width: 400px;
-    max-height: 400px;
-   
+/*style body*/
+body{
+    background-color: #cae4db
 }
 
 /*make the footer the right size and area*/
-
 footer{
     height: 150px;
+    grid-area: footer;
+    background-color:#7a9d96;
 }
 
 .social-media{
@@ -63,7 +67,8 @@ footer{
 
 .social-media i {
     font-size: 150%;
-    margin: 1%;
-    padding: 5%;
-    colour: #525252
+    
+    padding: 10%;
+    color: #00303f ;
+    
 }
