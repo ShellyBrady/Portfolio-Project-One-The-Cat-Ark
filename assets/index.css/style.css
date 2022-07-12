@@ -8,7 +8,7 @@
 
 /*style header logo*/
 
-h1 {
+a h1 {
     font-family: 'Georgia', sans-serif;
     color: #00303f;
     text-align: center;
@@ -16,15 +16,15 @@ h1 {
     grid-area: header;
     font-size: 45pt;
     
-
+}
 
 /*style nav bar*/
 
-.nav-links a {
+#menu a {
     text-decoration: none;
 }
 
-.nav-links li {
+#menu li {
     display: inline;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     background-color: #dcae1d;
@@ -32,7 +32,7 @@ h1 {
 }
 
 /*section styling*/
- h2{
+a h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #00303f;
  }
