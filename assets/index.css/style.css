@@ -1,46 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Lato&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 
-
-/*style mobile display*/
 
 
 /*style header logo*/
 
-a h1 {
+#logo h1 {
     font-family: 'Georgia', sans-serif;
     color: #00303f;
     text-align: center;
     padding: 2%;
-    grid-area: header;
-    font-size: 45pt;
-    
+    font-size: 400%;
 }
+header a {
+    text-decoration: none;
+ }
 
 /*style nav bar*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 2pt;
+}
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
 
 #menu li {
-    display: inline;
+    display:inline-block;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background-color: #dcae1d;
     color:#00303f;
+    padding: 10px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*section styling*/
-a h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00303f;
- }
 
- p {
+body {
     color: #00303f;
     font-family: 'Heebo', sans-serif;
  }
+
+a h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00303f;
+    
+ }
+body a {
+    text-decoration: none;
+}
+
+    
 
 
 /*resize images*/
