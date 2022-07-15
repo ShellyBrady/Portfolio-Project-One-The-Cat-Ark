@@ -83,7 +83,10 @@ body a {
 
 
 /*resize images*/
-
+img {
+    width:100%;
+    height: auto; 
+}
 /*style body*/
 body{
     background-color: #cae4db
