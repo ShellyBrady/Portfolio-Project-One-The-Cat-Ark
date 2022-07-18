@@ -22,7 +22,7 @@
 
 /*style header logo*/
 
-#logo h1 {
+.logo h1 {
     font-family: 'Georgia', sans-serif;
     color: #00303f;
     text-align: center;
