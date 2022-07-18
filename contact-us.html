@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="The Cat Ark cat rescue in Galway, Ireland offers cats for adoption and rescues stray cats">
+    <meta name="keywords" content="cat adoption, cats, cat shelter, Galway, Ireland, cat rescue, animal charity, pet, The Cat Ark, donate, volunteer">
+
+    <link rel="stylesheet" href="assets/index.css/style.css">
+    <title>Contact Form</title>
 </head>
+
 <body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <h1>The Cat Ark</h1>
+           </a>
+
+        <nav >
+
+            <ul id="menu">
+    
+              <li>
+               <a href="index.html" >Home</a>
+              </li>
+    
+              <li>
+                <a href="cats-for-adoption.html">Adopt A Cat</a>
+              </li>
+    
+              <li> 
+                <a href="#contact-us.html" class="active">Contact Us</a>
+              </li>
+    
+            </ul>
+    
+          </nav>
+
+    </header>
+
+      <br>
+
+    <form id="contact-details">
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="fullname"><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone"><br>
+        <label for="reason">What is your query related to?:</label>
+        <select id="reason" name="reason">
+          <option value="Adoption">Adoption</option>
+          <option value="Fostering/Volunteering">Fostering/Volunteering</option>
+          <option value="Cat in Need of Care">Cat in Need of Care</option>
+          <option value="Donations">Donations</option> 
+        </select>
+        <br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <button type="submit" width="48" height="48" id="submit">Submit</button> >
+    </form>
+      <br>
+  <Footer>
+
+      
+    <ul class="social-media">
+      <li>
+        <a href="https://facebook.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+      </li>
+      <li>
+        <a href="https://youtube.com" target="_blank" rel="noopener"
+                  aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
+    
+
+    <address id="contact">
+        Email: thecatark@omail.ie<br>
+        Phone: 093 11111<br>
+        Address: Kilgevrin,<br>
+                 Miltown,<br>
+                 Co. Galway,<br>
+                 Ireland<br>
+        Website for Educational Purposes Only.<br>
+        </address>      
+  </Footer>  
     
 </body>
+
 </html>
