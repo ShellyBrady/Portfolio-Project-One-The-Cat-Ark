@@ -88,29 +88,59 @@ img {
     height: auto; 
 }
 /*style body*/
+
 body{
-    background-color: #cae4db
+    background-color: #cae4db;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+.formpage {
+    background-image: url(../images/pexels-владимир-васильев-4564996-adopt-pic.jpg);
+    background-position: 2% 3%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}    
+
+.formpage::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 245, 245, 0.25);
 }
 
 /*make the footer the right size and area*/
 footer{
-    height: 150px;
+    margin-top: auto;
     grid-area: footer;
     background-color:#7a9d96;
 }
-
-.social-media{
+#education{
     text-align: center;
 }
+}
 
+#contact {
+    
+    float: left;
+
+}
 .social-media > li {
     display: inline;
 }
 
-.social-media i {
+footer i {
     font-size: 150%;
-    
-    padding: 10%;
+    padding: 2%;
     color: #00303f ;
     
 }
