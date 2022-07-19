@@ -6,18 +6,7 @@
     border: none;
 }
 
-/*hero image */
 
-#hero-image {
-    height: 37vh;
-    width: 100vw;
-    background: url(../images/pexels-marcelo-miranda-1643348-main-image1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-
-}
 
 
 /*style header logo*/
@@ -34,6 +23,7 @@ header a {
  }
 
 /*style nav bar*/
+
 #menu {
     font-size: 105%;
     letter-spacing: 1pt;
@@ -73,6 +63,9 @@ body {
 a h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #00303f;
+    font-size: 180%;
+    margin: 2%;
+    text-align: center;
     
  }
 body a {
@@ -96,38 +89,32 @@ body{
     min-height: 100vh;
     }
 .formpage {
-    background-image: url(../images/pexels-владимир-васильев-4564996-adopt-pic.jpg);
-    background-position: 2% 3%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+    
+
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     
-}    
-
-.formpage::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(250, 245, 245, 0.25);
 }
 
+.click-here{
+    color: #7a9d96;
+    background-color: whitesmoke;
+    padding: 0.5%;
+    position: relative;
+}
 /*make the footer the right size and area*/
 footer{
-    margin-top: auto;
-    grid-area: footer;
+    margin:2%;
     background-color:#7a9d96;
+    text-align: center;
 }
+
 #education{
     text-align: center;
 }
-}
+
 
 #contact {
     
