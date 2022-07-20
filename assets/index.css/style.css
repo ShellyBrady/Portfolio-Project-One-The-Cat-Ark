@@ -25,12 +25,11 @@ header a {
 /*style nav bar*/
 
 #menu {
-    font-size: 105%;
-    letter-spacing: 1pt;
-    line-height: 10%;
+    font-size: 1.5em;
+    line-height: 110%;
     background-color: #7aa1e9;
     text-align: center;
-    font-weight: 300;
+    font-weight: 250;
 }
 
 #menu a {
@@ -42,7 +41,7 @@ header a {
     display:inline-block;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color:#00303f;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 #menu a:hover {
@@ -55,10 +54,6 @@ header a {
 
 /*section styling*/
 
-body {
-    color: #00303f;
-    font-family: 'Heebo', sans-serif;
- }
 
 a h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,29 +63,42 @@ a h2{
     text-align: center;
     
  }
-body a {
-    text-decoration: none;
+
+/*resize images*/
+
+#adopt img {
+    width: 65%;
+    max-height: 80vh;
+    align-items: center;
+    justify-items: center;
+    display: block;
+    margin: auto;
+    padding: auto;
+  
 }
 
     
 
-
-/*resize images*/
-img {
-    width:100%;
-    height: auto; 
-}
 /*style body*/
 
 body{
+    color: #00303f;
+    font-family: 'Heebo', sans-serif;
     background-color: #cae4db;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     }
+
+.shape{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 .formpage {
     
-
     height: 100vh;
     width: 100%;
     display: flex;
@@ -98,15 +106,36 @@ body{
     
 }
 
-.click-here{
-    color: #7a9d96;
-    background-color: whitesmoke;
-    padding: 0.5%;
-    position: relative;
+body a {
+    text-decoration: none;
 }
+
+p{
+    text-align: justify;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+ /*align 'click-here' link in cats-for-adoption page*/
+
+.click-here{
+    display: block;
+    
+    background-color:#7aa1e9;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    text-align: center;
+   
+}
+
+.click-here a {
+     text-decoration: none ;
+     color: black;
+}
+
 /*make the footer the right size and area*/
 footer{
-    margin:2%;
+    
     background-color:#7a9d96;
     text-align: center;
 }
@@ -128,6 +157,7 @@ footer{
 footer i {
     font-size: 150%;
     padding: 2%;
-    color: #00303f ;
+    text-decoration: none;
+    color: black;
     
 }
