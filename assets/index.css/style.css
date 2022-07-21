@@ -13,7 +13,7 @@
 
 .logo h1 {
     font-family: 'Georgia', sans-serif;
-    color: #00303f;
+    color: black;
     text-align: center;
     padding: 3%;
     font-size: 380%;
@@ -27,14 +27,14 @@ header a {
 #menu {
     font-size: 1.5em;
     line-height: 110%;
-    background-color: #7aa1e9;
+    background-color: #FF9519;
     text-align: center;
     font-weight: 250;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 #menu li {
@@ -54,10 +54,16 @@ header a {
 
 /*section styling*/
 
-
+header #topadopt {
+    text-align: center;
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 1%;
+}
 a h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00303f;
+    color: #616161;
     font-size: 180%;
     margin: 2%;
     text-align: center;
@@ -83,26 +89,27 @@ a h2{
     align-items: center;
     justify-items: center;
     display: block;
-    margin: auto;
-    padding: auto;
+    margin:auto;
+    padding: 2%;
+    border:1px solid #FF9519;
   
 }   
 
 /*style body*/
 
 body{
-    color: #00303f;
+    color: black;
     font-family: 'Heebo', sans-serif;
-    background-color: #cae4db;
+    background-color: #d3d3d3;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.shape{
+.shape {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     margin-top: 2%;
 }
 
@@ -110,11 +117,51 @@ body a {
     text-decoration: none;
 }
 
-p{
+p {
     text-align: justify;
     padding-top: 0.5%;
     padding-bottom: 1%;
 } 
+
+/*style cats-for-adoption page*/
+
+.catadopt .details {
+    margin:2%;
+    padding: 2%;
+    border:1px solid #FF9519;
+  
+}
+
+.catadopt dl {
+    width: 100%;
+    overflow: hidden;
+    background: #e5e5e5;
+    padding: 0;
+    margin-right: 0;
+     
+  }
+
+ .catadopt  dt {
+    float: left;
+    width: 40%;
+    /* adjust the width; make sure the total of both is 100% */
+    background: #e5e5e5;
+    padding: 0;
+    margin: 0
+    
+  }
+ 
+ }
+ .catadopt dd {
+    
+    float: left;
+    width: 60%;
+    /* adjust the width; make sure the total of both is 100% */
+    background: #e5e5e5;
+    padding: 0;
+    margin: 0
+    
+  }
 
 /*style form contact-us page*/
 
@@ -127,42 +174,56 @@ p{
     justify-content:center;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 
 }
 
  /*align 'click-here' link in cats-for-adoption page*/
 
-.click-here{
-    display: flex;
-    background-color:#7aa1e9;
-    margin-bottom: 2%;
-    padding: 2%;
-    width: 100%;
-   
-   
+.click-here {
+    height: 200px;
+    position: relative;
+    text-align: center;
+    
 }
 
-.click-here a {
-     text-decoration: none ;
-     color: black; 
-     text-align: center;
+.click-here .button1 a {
+text-decoration: none;
+color: #616161 ;
+font-size: 110%;
+font-weight: bold;
+
 }
+.button1 {
+    background-color: #FF9519;
+    border: none;
+    padding: 1%;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12pt;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+  }
 
 /*make the footer the right size and area*/
 footer{
     
-    background-color:#7a9d96;
+    background-color:#25ced1;
     text-align: center;
-    display: inline-block;
-    position: absolute;
-    bottom: 1%;
+    position:absolute;
+    bottom: 0%;
     width: 100%;
-    height: 4rem; 
+    height: 2.5rem; 
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
+#page-container { 
+  position: relative;
+  min-height: 100vh;
 }
   
 #content-wrap {
@@ -185,7 +246,7 @@ footer{
 }
 
 footer i {
-    font-size: 150%;
+    font-size: 200%;
     padding-left: 2%;
     text-decoration: none;
     color: black;
