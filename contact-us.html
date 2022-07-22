@@ -11,7 +11,10 @@
     <title>Contact Form</title>
 </head>
 
-<body class="formpage">
+<body class="shape">
+
+  <div id="page-container">
+    <div id="content-wrap">
     
     <header>
 
@@ -43,72 +46,99 @@
 
       <br>
 
-    <form id="contact-details">
-        <label for="fullname">Name:</label><br>
-        <input type="text" id="fullname"><br>
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email"><br>
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone"><br>
-        <label for="reason">What is your query related to?:</label>
+  <div class="container"> 
+    <form class="contact-details">
+    <div class="row">
+      <div class="col-25">
+        <label for="fullname">Name</label>
+      </div>  
+      <div class="col-75">
+        <input type="text" id="fullname" placeholder="Your Name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">    
+        <label for="email">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" placeholder="Your Email Address">
+      </div>
+    </div>  
+    <div class="row">
+      <div class="col-25">   
+        <label for="phone">Phone Number</label>
+      </div>
+      <div class="col-75">
+        <input type="tel" id="phone" placeholder="Your Phone Number">
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-25">  
+        <label for="reason">Your Query</label>
+      </div>
+      <div class="col-75">  
         <select id="reason" name="reason">
           <option value="Adoption">Adoption</option>
           <option value="Fostering/Volunteering">Fostering/Volunteering</option>
           <option value="Cat in Need of Care">Cat in Need of Care</option>
           <option value="Donations">Donations</option> 
         </select>
-        <br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea>
-        <br>
-        <button type="submit" width="48" height="48" id="submit">Submit</button> >
-    </form>
-    <br>  
-    <div>
-
-   
-      <address class="contact">
-        Email: info@thecatark.ie<br>
-
-        Phone: 093 11111<br>
-
-        Address: Co. Galway,<br>
-                 Ireland<br>
-       
-      </address>  
+      </div>  
+    </div>  
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
     </div>
+  </form>
+    <br>
+    <div class="click-here">
+      <button class="button1" type="submit" >Submit Your Details</button>
+    </div>
+    
+    
+  </div> 
 
-    <Footer>
+    
+      
+  </div>
+
+  <footer>
 
       <ul class="social-media">
-        <li>
-            <a href="https://facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-        </li>
-      </ul>
+      <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+      </li>
+      <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+      </li>
+      <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
 
-      <div id="copyright">
-         copyright fill in
-      </div>
+
+
+    <div id="copyright">
+      <p>© 2022 Michelle Brady</p>
+    </div>
         
     
      
 
   </Footer>  
-    
-</body>
 
+  </div>   
+
+</body>
 </html>
