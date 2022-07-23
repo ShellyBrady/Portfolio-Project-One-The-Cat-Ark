@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Libre+Franklin:wght@400;600&family=Source+Sans+Pro&display=swap');
 
 *{
     margin: 0;
@@ -8,17 +8,11 @@
 }
 
 
-
-
-
-
-
-
-
 /*style header logo*/
 
 .logo h1 {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
     color: black;
     text-align: center;
     padding: 3%;
@@ -45,7 +39,8 @@ header a {
 
 #menu li {
     display:inline-block;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
     color:black;
     padding: 0.5em;
 }
@@ -64,13 +59,13 @@ header #topadopt {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 600;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 a h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     color: #616161;
     font-size: 180%;
     margin: 4%;
@@ -108,11 +103,14 @@ a h2{
 
 body{
     color: black;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Frankin', sans-serif;
+    font-weight: 500;
+    font-size: 110%;
     background-color: #d3d3d3;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    letter-spacing: 1pt;
 }
 
 .shape {
@@ -130,56 +128,67 @@ p {
     text-align: justify;
     padding-top: 0.5%;
     padding-bottom: 3%;
+
 } 
 
 /*style cats-for-adoption page*/
 
-.catadopt .details {
-    margin:2%;
-    padding: 2%;
-    border:1px solid #FF9519;
-    
-  
+dd {
+    font-family:  'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
 }
 
-.catadopt dl {
-    max-width: fit-content;
-    overflow: hidden;
-    background: #f7f2f2;
-    padding: 0;
-    margin-right: 0;
-    align-items: center;
-     
-  }
+dt {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border:1px solid #FF9519;
+    font-size: 110%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
 
- .catadopt  dt {
-    float: left;
-    width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-    background: #f7f2f2;
-    padding: 0;
-    margin: 0
-    
-  }
- 
- 
- .catadopt dd {
-    
-    float: right;
-    width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-    background: #f7f2f2;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    
-  }
+}
 
-  input[type=text]:focus {
-    border: 3px solid #555;
-  }
+.click-here {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70pt;
+  border: 3px solid green;
+}
+
+
+button {
+    position: absolute;
+    padding: 1%;
+    background-color: #FF9519;
+    border-radius: 12pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*style form contact-us page*/
-
+input[type=text]:focus {
+    border: 3px solid #555;
+}
 .contact-details {
     
     height: 100vh;
@@ -190,11 +199,13 @@ p {
     margin-left: auto;
     margin-right: auto;
     color: black;
+    font-family: 'Libre Baskerville', serif;
     
 } 
 
 .contact-details textarea #subject{
     margin-right: 10%;
+    font-family: 'Libre Franklin', sans-serif;
 
 }
 
@@ -206,7 +217,7 @@ select {
     background-color: #f7f2f2;
     border:1px solid #FF9519;
 
-  }
+}
 
 input[type=text], select, textarea {
     border-radius: 4px;
@@ -231,12 +242,12 @@ input {
 
 }
 
-
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
 
+/* button effect */
   .button1[type=submit]:hover {
     background-color:#2295c7;
   }  
@@ -260,59 +271,28 @@ label {
     margin-top: 6px;
   }
 
-
-
 /* Responsive layout for contact-us page- when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }  
-
-
-
-
-
-
-
- /*align 'click-here' link in cats-for-adoption page*/
-
-.click-here {
-    height:5%;
-    margin: 5%;
-    position: relative;
-    text-align: center;
-    
-    
+  .col-25, .col-75, input[type=submit] 
+{
+  width: 100%;
+  margin-top: 0;
 }
-
-.click-here .button1 a {
-text-decoration: none;
-color: black ;
-font-size: 110%;
+}  
 
 
-}
-.button1 {
-    background-color: #ff9519;
-    border: none;
-    padding: 5%;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12pt;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-   
-  }
 
-/*make the footer the right size and area*/
+
+
+
+
+ /*style and align 'click-here' link button used in any page*/
+
+
+
+/*make the footer the right size and area in all pages*/
+
 footer{
     background-color: #2295c7;
     text-align: center;
@@ -321,21 +301,25 @@ footer{
     width: 100%;
     height: 2.5rem; 
     margin-top: 5%;
+
 }
 
 #page-container { 
   position: relative;
   min-height: 100vh;
+
 }
   
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
+
 }
 
 #copyright{
     float: right;
-}
+    font-family: 'Libre Baskerville', sans-serif;
 
+}
 
 .contact {
     
@@ -349,10 +333,12 @@ footer{
     margin-right: 10%;
     margin-bottom: 5%;
     margin-top: 2%;
+
 }
 
 .social-media > li {
     display: inline;
+
 }
 
 footer ul i {
