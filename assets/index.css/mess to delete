@@ -10,12 +10,15 @@ color: black ;
 font-size: 110%;
 
 }
+
 button .button1 {
     
     margin: auto;
     height:5%;
     position: relative;
+
 }
+
 .button1 {
     background-color: #ff9519;
     border: none;
@@ -31,3 +34,86 @@ button .button1 {
     font-family: 'Libre Baskerville', serif;
 
 }
+
+
+
+
+footer{
+    text-align: center;
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem; 
+    margin-top: 5%;
+
+}
+
+#page-container { 
+  position: relative;
+  min-height: 100vh;
+
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+
+}
+
+#copyright{
+    float: right;
+    font-family: 'Libre Baskerville', sans-serif;
+
+}
+
+.contact {
+    
+    float: left;
+    margin-left: 2%;
+
+}
+.social-media ul{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+}
+
+.social-media > li {
+    display: inline;
+
+}
+
+footer ul i {
+   
+    
+    text-decoration: none;
+    color: white;
+    
+}
+<Footer>
+
+      
+    <ul class="social-media">
+      <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-square"></i></a>
+      </li>
+      <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square icon-3x"></i></a>
+      </li>
+      <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square icon-3x"></i></a>
+      </li>
+      <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram icon-3x"></i></a>
+      </li>
+  </ul>
+
+      <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/e576ca19f3.js" crossorigin="anonymous"></script>
+
+  </Footer>  
