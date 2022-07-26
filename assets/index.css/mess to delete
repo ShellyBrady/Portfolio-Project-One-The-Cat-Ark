@@ -117,3 +117,190 @@ footer ul i {
     <script src="https://kit.fontawesome.com/e576ca19f3.js" crossorigin="anonymous"></script>
 
   </Footer>  
+
+  <div class="container2">
+  
+    <div class="visit">
+      <address>
+        Visit us at:<br>
+        Galway<br>
+        Ireland<br>
+       </address>
+    </div>  
+  
+    <div class="social-media">
+      <P> Follow us on social media!</P>
+      <ul>
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+
+    </div>
+
+      <div class="copyright">
+        <p>© 2022 Michelle Brady</p>
+      </div>
+
+    </div> 
+    .container2 {
+        display: grid;
+        border: 2px solid #FF9519;
+        margin-top: 5% ;
+        background-color: #555;
+        grid-gap: 1% 1%;
+        letter-spacing: 0;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+        justify-content: center;
+        grid-template-areas: 
+           "visit social-media copyright";   
+           grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));                  
+                             
+    }
+    
+    
+    
+    .visit  {
+        color: white;
+        font-size: 90%;
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+        grid-area: visit;
+        background-color: #555;
+        font-family: 'Libre Franklin', sans-serif;
+        
+    }
+    
+    .visit address {
+        font-style: normal;
+    
+    }
+    
+    .social-media {
+        color: white;
+        font-size: 95%;
+        padding: 1%;
+        grid-row: 4;
+        grid-area: social-media;
+        background-color: #555;
+        text-align: center;
+        padding: 1%;
+        
+    }
+    
+    .social-media p {
+        text-align: center;
+        padding-top: 0.5%;
+    
+    }
+    
+    .copyright { 
+        font-size: 90%;
+        grid-row: 5;
+        grid-area: copyright;
+        color: white;
+        background-color: #555;
+        text-align: center;  
+        
+    }
+    
+    .copyright p {
+        text-align: center;
+        
+    }
+    .social-media ul li{
+       padding:1%
+        
+    }
+    
+    .social-media li {
+        display: inline-block;
+        list-style: none;  
+        
+    }
+    
+    .social-media li a {
+        text-decoration: none;
+        color: white;
+    
+    }
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+    correct <foot
+
+    <!--Footer..links for social media, menu, copyright-->
+
+    <footer>
+
+      <div class="footer-content">
+         
+        <h3>The Cat Ark</h3>
+
+        <p>
+          Visit Us in Galway, Ireland
+          or follow us on social media for updates.
+        </p>
+
+    
+        <!--social media links--> 
+
+        <ul class="social-media">
+          <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© Michelle Brady</p>
+     </div>
+
+     <div class="footer-menu">
+      <ul class="f-menu">
+         <li><a href="/index.html">Home</a></li>
+         <li><a href="/cats-for-adoption.html">Adopt a Cat</a></li>
+         <li><a href="/contact-us.html">Contact Us</a></li>
+      </ul>
+     </div>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/e576ca19f3.js" crossorigin="anonymous"></script>
+
+    </footer>   
+  
+     
+  
+</body>
+    
+</html>
