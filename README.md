@@ -2,7 +2,7 @@
  Website for a fictional Cat Rescue and Adoption Shelter
 
 ## The Cat Ark Website
-###### About
+### About
 
 The Cat Ark Website is a site that aims to bring awareness to a cat shelter in Galway, Ireland in order to garner donations, both in funding and in supplies. 
 It also shows the cats that are available to be adopted so people can be tempted into giving the cats in the shelter a new home. 
@@ -12,12 +12,12 @@ The Cat Ark website will help people find a cat that they know is healthy, vacci
 
 
 
-                   ![This is an image](/assets/images/am%20i%20responsive%20screenshot%202.PNG)
+![Image of Am I Responsive? Mockup Screenshot ](https://res.cloudinary.com/dhifyjuus/image/upload/v1659003310/The%20Cat%20Ark/am_i_responsive_screenshot_2_ujyzs6.png)
 
 
 
 
-###### Responsive Mockup of The Cat Ark Website
+### Responsive Mockup of The Cat Ark Website
 
 
 Features
@@ -27,7 +27,7 @@ what it is that they want to achieve and how your project is the best way to hel
 
 ## Existing Features
 
-###### Navigation Bar
+### Navigation Bar
 
 Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Adopt-a-Cat page 
 and Contact-us page and is identical in each page to allow for easy navigation. The background-color, 
@@ -35,33 +35,35 @@ an orange color, is used to brighten up the site, bring attention to the navigat
 
 The navigation bar is useful for users to find their way around the site without too much needless seraching.
 
-###### The Logo
+### The Logo
 
 The Cat Ark logo is featured in large, bold font across the top of all three pages and is a working linking 
 that brings the user back to the homepage.
 
 It is clear, easy to read and will bring the organisation's name to the attention of the user.
 
-###### Hello!
+## The Home Page
+
+### Hello!
 The first section of text on the home page is an introduction to The Cat Ark, giving the user a little background 
 information and also tells the user about the community work the shelter does and the importance of what they do.
 The heading is also a clickable link to the homepage.
 
-###### Adopt a Furry Friend Section Image
+### Adopt a Furry Friend Section Image
 
 ![Picture of a Cat with a Sign that says 'All you need is cat'](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677711/The%20Cat%20Ark/pexels-alena-koval-982865_1_liqzwp.jpg)
 
 This section has an image of a cat holding a sign and looking at the camera. the sign says 'all you need is cat' and 
 encourages the user to think about bringing a cat into their life. 
 
-###### Adopt a Furry Friend
+### Adopt a Furry Friend
 The heading is a clickable link, bringing the user to the cats-for-adoption page, making it easy for the user to see the cats available.
 The text in this section, encourages the user to adopt a cat from The Cat Ark, giving the benefits 
 to the user of doing so. 
 It also lets the user know that they will be doing a good thing by adopting from the shelter 
 as it will provide the shelter with the space to rescue another cat that needs a home. 
 
-###### Become A Member of Our Team Image
+### Become A Member of Our Team Image
 
 ![Image of a girl smiling while holding two kittens](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677734/The%20Cat%20Ark/young-woman-2517252_640_hfdybq.jpg) 
 
@@ -69,20 +71,31 @@ as it will provide the shelter with the space to rescue another cat that needs a
  The aim of this image is to encourage the user to get involved with the shelter as a volunteer so they can interact 
  with the cute kittens as well. The image of the happy girl may even entice the user to adopt a cat, so they can enjoy their own cat.
 
- ###### Become A Member of Our Team 
+ ### Become A Member of Our Team 
  The heading of this section is a clickable link which brings the user to the contact-us page so they can easily enquire 
- about becoming involved with the cats at the shelter or as a fosterer.
+ about becoming involved with the cats at the shelter or as a fosterer. This is important to the shelter for it to be able to continue to run efficiently.
 
- ###### Donations Image
+ ### Donations Image
 
  ![Image of a ginger and white kitten looking at the camera](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677733/The%20Cat%20Ark/pexels-larissa-barbosa-1870376_kqdbot.jpg)
 
 At the top of the Donations section, there is an image of an adorable, fluffy kitten looking at the camera with beseeching eyes. 
 The user may be prompted to help the shelter to help the poor little kitten.
 
-###### Donations 
-The heading of this section is a clickable link which brings the user to the contact-us page so they can easily contact the shelter.
-This                                                                                                                                                                                                                                              
+### Donations 
+The heading of the Donations Section is a clickable link that brings the user straight to the contact-us page which may prompt the user to get in touch with the shelter with some offer of help or donation.
+As the shelter is a non-profit, charity-based rescue, it heavily relies on donations from the public to pay for vet bills and expenses. They also need donations of food, cat litter and bedding to keep the cats in their care fed and comfortable. This section aims to bring in much-needed aide so the shelter can keep going.
+
+## Cats for Adoption Page
+
+The aim of this page is to show the various cats that are ready and available for adoption at The Cat Ark at the moment and to give details of each cat's needs and likes so the user can evaluate whether one of the cats woul mae a good pet for their household.
+Each cat has an image of them, followed by a list which includes their name, type, needs and is followed by a few sentences about that specific cat- what he or she likes for example.
+The list also details whether they are house-trained which may be important for the user to know.
+The images may prompt users to be tempted into adopting a cat from the shelter which is one of the main aims of this website.
+The page is headed with the same logo, navigation bar and footer as the Home Page. 
+The Logo is a clickable link which will bring the user back to the home page. 
+The user can reach the Cats for Adoption page by several ways-by clicking on the heading of the section about adopting on the home page or by the navigation bar at the top of the page, or the navigation menu in the footer. 
+
 
 
 

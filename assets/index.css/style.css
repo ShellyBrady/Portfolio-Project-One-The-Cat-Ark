@@ -87,7 +87,7 @@ a h2{
 
 .homeimg img {
     width: 65%;
-    max-height:max-content;
+    height:auto;
     align-items: center;
     justify-items: center;
     display: block;
@@ -99,7 +99,7 @@ a h2{
 
 .catadopt img {
     width: 40%;
-    max-height:max-content;
+    height: auto;
     align-items: center;
     justify-items: center;
     display: block;
