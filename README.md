@@ -1,9 +1,10 @@
 # Portfolio-Project-One-The-Cat-Ark
  Website for a fictional Cat Rescue and Adoption Shelter
 
- The Cat Ark Website
+## The Cat Ark Website
+###### About
 
-The Cat Ark Website is a site that aims to bring awareness to a cat shelter in order to garner donations, both in funding and in supplies. 
+The Cat Ark Website is a site that aims to bring awareness to a cat shelter in Galway, Ireland in order to garner donations, both in funding and in supplies. 
 It also shows the cats that are available to be adopted so people can be tempted into giving the cats in the shelter a new home. 
 As The Cat Ark is a not-for-profit shelter, it is important to fundraise to pay for vetinary bills, supplies, food and overheads. It is therefore essential that people know that the shelter exists, all the good work it does and how important it is for the local cat population. Without an informative, eye-catching website, it will be difficult to encourage enough people to support the shelter with donations.
 The site will also look for volunteers to help in the day-to-day running of the shelter.
@@ -12,31 +13,65 @@ The Cat Ark website will help people find a cat that they know is healthy, vacci
 
 
 
-Responsive Mockup
+Responsive Mockup ADD PIC
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. ------DELETE
 
-Existing Features
-Navigation Bar
+## Existing Features
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+###### Navigation Bar
 
-The landing page image
+Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Adopt-a-Cat page and Contact-us page and is identical in each page to allow for easy navigation. The background-color #FF9519, an orange color is used to brighten up the site, bring attention to the navigation bar so its easy for the user to find.
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+The navigation bar is useful for users to find their way around the site without too much needless seraching.
 
-Club Ethos Section
+###### The Logo
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+The Cat Ark logo is featured in large, bold font across the top of all three pages and is a working linking that brings the user back to the homepage.
 
-Meetup Times section
+It is clear, easy to read and will bring the organisation's name to the attention of the user.
+
+###### Hello!
+The first section of text on the home page is an introduction to The Cat Ark, giving the user a little background information and also tells the user about the community work the shelter does and the importance of what they do.
+The heading is also a clickable link to the homepage.
+
+###### Adopt a Furry Friend Section Image
+
+![Picture of a Cat with a Sign that says 'All you need is cat'](/assets/images/pexels-alena-koval-982865(1).jpg)
+
+This section has an image of a cat holding a sign and looking at the camera. the sign says 'all you need is cat' and encourages the user to think about bringing a cat into their life. 
+
+###### Adopt a Furry Friend
+The heading is a clickable link, bringing the user to the cats-for-adoption page, making it easy for the user to see the cats available.
+The text in this section, encourages the user to adopt a cat from The Cat Ark, giving the benefits to the user of doing so. 
+It also lets the user know that they will be doing a good thing by adopting from the shelter as it will provide the shelter with the space to rescue another cat that needs a home. 
+
+###### Become A Member of Our Team Image
+
+![Image of a girl smiling while holding two kittens](/assets/images/young-woman-2517252_640.jpg) 
+
+ At the top of this section, there is an image of a smiling young woman holding up two kittens close to her. The aim of this image is to encourage the user to get involved with the shelter as a volunteer so they can interact with the cute kittens as well. The happy girl may even entice the user to adopt a cat, so they can enjoy their own cat.
+
+ ###### Become A Member of Our Team 
+ The heading of this section is a clickable link which brings the user to the contact-us page so they can easily enquire about becoming involved with the cats at the shelter or as a fosterer.
+
+ ###### Donations Image
+
+ ![Image of a ginger and white kitten looking at the camera](/assets/images/pexels-larissa-barbosa-1870376.jpg)
+
+At the top of the Donations section, there is an image of an adorable, fluffy kitten looking at the camera with beseeching eyes. The user may be prompted to help the shelter to help the poor little kitten.
+
+###### Donations 
+The heading of this section is a clickable link which brings the user to the contact-us page so they can easily contact the shelter.
+This                                                                                                                                                                                                                                              
+
+
+
+
+
+
+
 
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.

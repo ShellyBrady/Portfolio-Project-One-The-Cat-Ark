@@ -171,73 +171,57 @@ dt {
 
 }
 
-  /*style for buttons on all pages*/
+  /*style for contact-us page links on all pages*/
 
-.click-here {
-  position: relative;
-  display:block;
-  justify-content: center;
-  height: 200px;
-  border: 3px solid #d3d3d3; 
- 
-}
-  
-  
-
-
-.click-here a {
-    text-decoration: none;
-    color: white;
-    
-}
-
-button {
-    background-color: #FF9519; 
-    border-radius: 12pt;
+a h3{
     font-family: 'Libre Franklin', sans-serif;
-    font-weight: bold;
-    padding: 14px 28px;
-    font-size: 16px;
-   
-}
+    color: white;
+    font-size: 115%;
+    margin: 4%;
+    text-align: center;
+    background-color: #FF9519;
+    border-radius: 12pt;
+}    
 
-.button1 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-/* landscape */
-@media screen and (orientation:landscape) {
-    [button1]{
-        position:fixed;
-    }
-}
-
-/* button effect */
-
-  .button1[type=submit]:hover {
-    background-color:#2295c7;
-    transition: 0.7s;
-
-  }  
-
-  button:hover {
+a h3:hover {
     background-color:#2295c7; 
     transition: 0.7s;
 
-  }
+}
+
+/*style form contact-us page*//* Responsive layout for
+ contact-us page- when the screen is less than 600px wide*/
+
+/*style submit button on form of contact-us page */
+button 
+{
+        display:flex ;
+        font-family: 'Libre Franklin', sans-serif;
+        color: white;
+        font-size: 115%;
+        margin-left: 25%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        text-align: center;
+        background-color: #FF9519;
+        border-radius: 12pt;
+        padding: 2%;
+}    
 
 
-/*style form contact-us page*//* Responsive layout for contact-us page- when the screen is less than 600px wide*/
+/* submit button on form and input effects */
+
+button[type=submit]:hover {
+    background-color:#2295c7;
+    transition: 0.7s;
+
+}  
 
 input[type=text]:focus {
-    border: 3px solid #555;
+    border: 3px solid #2295c7;
 
 }
+ /*form style on form contact-us page*/
 
 .contact-details {
     
