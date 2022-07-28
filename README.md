@@ -27,15 +27,16 @@ what it is that they want to achieve and how your project is the best way to hel
 
 ## Existing Features
 
-### Navigation Bar
+## Navigation Bar
 
+![The Cat Ark Navigation Bar and L]()
 Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Adopt-a-Cat page 
 and Contact-us page and is identical in each page to allow for easy navigation. The background-color, 
 an orange color, is used to brighten up the site, bring attention to the navigation bar so its easy for the user to find.
 
 The navigation bar is useful for users to find their way around the site without too much needless seraching.
 
-### The Logo
+## The Logo
 
 The Cat Ark logo is featured in large, bold font across the top of all three pages and is a working linking 
 that brings the user back to the homepage.
