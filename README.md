@@ -12,55 +12,73 @@ The Cat Ark website will help people find a cat that they know is healthy, vacci
 
 
 
+                   ![This is an image](/assets/images/am%20i%20responsive%20screenshot%202.PNG)
 
-Responsive Mockup ADD PIC
+
+
+
+###### Responsive Mockup of The Cat Ark Website
+
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. ------DELETE
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
+You will need to explain what value each of the features provides for the user, focusing on who this website is for, 
+what it is that they want to achieve and how your project is the best way to help them achieve these things. ------DELETE
 
 ## Existing Features
 
 ###### Navigation Bar
 
-Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Adopt-a-Cat page and Contact-us page and is identical in each page to allow for easy navigation. The background-color #FF9519, an orange color is used to brighten up the site, bring attention to the navigation bar so its easy for the user to find.
+Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Adopt-a-Cat page 
+and Contact-us page and is identical in each page to allow for easy navigation. The background-color, 
+an orange color, is used to brighten up the site, bring attention to the navigation bar so its easy for the user to find.
 
 The navigation bar is useful for users to find their way around the site without too much needless seraching.
 
 ###### The Logo
 
-The Cat Ark logo is featured in large, bold font across the top of all three pages and is a working linking that brings the user back to the homepage.
+The Cat Ark logo is featured in large, bold font across the top of all three pages and is a working linking 
+that brings the user back to the homepage.
 
 It is clear, easy to read and will bring the organisation's name to the attention of the user.
 
 ###### Hello!
-The first section of text on the home page is an introduction to The Cat Ark, giving the user a little background information and also tells the user about the community work the shelter does and the importance of what they do.
+The first section of text on the home page is an introduction to The Cat Ark, giving the user a little background 
+information and also tells the user about the community work the shelter does and the importance of what they do.
 The heading is also a clickable link to the homepage.
 
 ###### Adopt a Furry Friend Section Image
 
-![Picture of a Cat with a Sign that says 'All you need is cat'](/assets/images/pexels-alena-koval-982865(1).jpg)
+![Picture of a Cat with a Sign that says 'All you need is cat'](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677711/The%20Cat%20Ark/pexels-alena-koval-982865_1_liqzwp.jpg)
 
-This section has an image of a cat holding a sign and looking at the camera. the sign says 'all you need is cat' and encourages the user to think about bringing a cat into their life. 
+This section has an image of a cat holding a sign and looking at the camera. the sign says 'all you need is cat' and 
+encourages the user to think about bringing a cat into their life. 
 
 ###### Adopt a Furry Friend
 The heading is a clickable link, bringing the user to the cats-for-adoption page, making it easy for the user to see the cats available.
-The text in this section, encourages the user to adopt a cat from The Cat Ark, giving the benefits to the user of doing so. 
-It also lets the user know that they will be doing a good thing by adopting from the shelter as it will provide the shelter with the space to rescue another cat that needs a home. 
+The text in this section, encourages the user to adopt a cat from The Cat Ark, giving the benefits 
+to the user of doing so. 
+It also lets the user know that they will be doing a good thing by adopting from the shelter 
+as it will provide the shelter with the space to rescue another cat that needs a home. 
 
 ###### Become A Member of Our Team Image
 
-![Image of a girl smiling while holding two kittens](/assets/images/young-woman-2517252_640.jpg) 
+![Image of a girl smiling while holding two kittens](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677734/The%20Cat%20Ark/young-woman-2517252_640_hfdybq.jpg) 
 
- At the top of this section, there is an image of a smiling young woman holding up two kittens close to her. The aim of this image is to encourage the user to get involved with the shelter as a volunteer so they can interact with the cute kittens as well. The happy girl may even entice the user to adopt a cat, so they can enjoy their own cat.
+ At the top of this section, there is an image of a smiling young woman holding up two kittens close to her. 
+ The aim of this image is to encourage the user to get involved with the shelter as a volunteer so they can interact 
+ with the cute kittens as well. The image of the happy girl may even entice the user to adopt a cat, so they can enjoy their own cat.
 
  ###### Become A Member of Our Team 
- The heading of this section is a clickable link which brings the user to the contact-us page so they can easily enquire about becoming involved with the cats at the shelter or as a fosterer.
+ The heading of this section is a clickable link which brings the user to the contact-us page so they can easily enquire 
+ about becoming involved with the cats at the shelter or as a fosterer.
 
  ###### Donations Image
 
- ![Image of a ginger and white kitten looking at the camera](/assets/images/pexels-larissa-barbosa-1870376.jpg)
+ ![Image of a ginger and white kitten looking at the camera](https://res.cloudinary.com/dhifyjuus/image/upload/v1658677733/The%20Cat%20Ark/pexels-larissa-barbosa-1870376_kqdbot.jpg)
 
-At the top of the Donations section, there is an image of an adorable, fluffy kitten looking at the camera with beseeching eyes. The user may be prompted to help the shelter to help the poor little kitten.
+At the top of the Donations section, there is an image of an adorable, fluffy kitten looking at the camera with beseeching eyes. 
+The user may be prompted to help the shelter to help the poor little kitten.
 
 ###### Donations 
 The heading of this section is a clickable link which brings the user to the contact-us page so they can easily contact the shelter.
