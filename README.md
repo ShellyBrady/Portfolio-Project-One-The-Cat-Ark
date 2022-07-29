@@ -156,7 +156,9 @@ The background color is a soft, light grey which I think is warmer than a stark 
 
 # Wireframes
 
-[Balsamiq Wireframes Created during Planning Stage](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008818/The%20Cat%20Ark/desktop_wireframes_pg1_2_3_jdy9kx.png)(https://res.cloudinary.com/dhifyjuus/image/upload/v1659071374/The%20Cat%20Ark/Screenshot_2022-06-30_150152_obrnpk.png)
+[Balsamiq Wireframes Created during Planning Stage](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008818/The%20Cat%20Ark/desktop_wireframes_pg1_2_3_jdy9kx.png)
+
+[Balsamiq Wireframes Created during Planning Stage2](https://res.cloudinary.com/dhifyjuus/image/upload/v1659071374/The%20Cat%20Ark/Screenshot_2022-06-30_150152_obrnpk.png)
 
 * My project changed a little from the wireframe stage of planning.
 
@@ -179,7 +181,9 @@ The background color is a soft, light grey which I think is warmer than a stark 
 ## Automated Testing
 
 [Screenshots of Validation Test Results HTML](https://res.cloudinary.com/dhifyjuus/image/upload/v1659003352/The%20Cat%20Ark/w3_html_index.html_validation_passed_bqzcbl.png)
+
 [Screenshots of Validation Test Results CSS](https://res.cloudinary.com/dhifyjuus/image/upload/v1659003343/The%20Cat%20Ark/w3_css_validation_passed_cwcbci.png)
+
 [Screenshots of Lighthouse Test Scores](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008908/The%20Cat%20Ark/lighthouse_validation_for_page_contact_us_page_gi8pbk.png)
 
 ## Validator Testing
