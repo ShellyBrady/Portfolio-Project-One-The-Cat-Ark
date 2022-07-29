@@ -183,10 +183,10 @@ The background color is a soft, light grey which I think is warmer than a stark 
 [Screenshots of Lighthouse Test Scores](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008908/The%20Cat%20Ark/lighthouse_validation_for_page_contact_us_page_gi8pbk.png)
 
 ## Validator Testing
-* HTML
-- No errors were returned when passing through the official W3C validator 
+* HTML 
+    No errors were returned when passing through the official W3C validator 
 * CSS
-- No errors were found when passing through the official W3C validator
+    No errors were found when passing through the official W3C validator
 * Lighthouse used for general scores, passed
 ### Unfixed Bugs
 * No unfixed bugs.
@@ -215,7 +215,7 @@ The live link can be found here - [Link to Deployed Live Website](https://shelly
 - All images were taken from Pexels and Pixabay which are open source sites.
 
 ## Code
-* Credit and Acknowledgement to the following sites for help with code or inspiration:
+Credit and Acknowledgement to the following sites for help with code or inspiration:
 - W3Schools for general html and css code.
 - Diffchecker to look compare code in my pages and find unclosed divs.
 - Stack Overflow, Code Institute, Css.Tricks for general information.
@@ -226,7 +226,7 @@ The live link can be found here - [Link to Deployed Live Website](https://shelly
 - Balsamiq for making wireframes.
 
 # Acknoledgements
-* I would like to thank the following for all the support and guidance:
+I would like to thank the following for all the support and guidance:
 - The Code Institute, especially our facilitator Kenan.
 - The Slack Community, particularily the group I am lucky to be part of.
 - My awesome mentor Rahul, whose encouragement and guidance was so valuable.
