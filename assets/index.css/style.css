@@ -189,29 +189,9 @@ a h3:hover {
 
 }
 
-/*style form contact-us page*//* Responsive layout for
- contact-us page- when the screen is less than 600px wide*/
-
-/*style submit button on form of contact-us page */
-button 
-{
-        display:flex ;
-        font-family: 'Libre Franklin', sans-serif;
-        color: white;
-        font-size: 115%;
-        margin-left: 25%;
-        margin-top: 15%;
-        margin-bottom: 15%;
-        text-align: center;
-        background-color: #FF9519;
-        border-radius: 12pt;
-        padding: 2%;
-}    
-
-
 /* submit button on form and input effects */
 
-button[type=submit]:hover {
+[type=submit]:hover {
     background-color:#2295c7;
     transition: 0.7s;
 
@@ -221,8 +201,9 @@ input[type=text]:focus {
     border: 3px solid #2295c7;
 
 }
- /*form style on form contact-us page*/
 
+/*style form contact-us page*//* Responsive layout for
+ contact-us page- when the screen is less than 600px wide*/
 .contact-details {
     
     width: 100%;
@@ -292,9 +273,20 @@ label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 
-  }
+}
 
-
+input[type=submit] {
+background-color: #FF9519;
+color: white;
+border: none;
+padding: 16px 25px;
+text-decoration: none;
+cursor: pointer;
+margin-bottom: 15%;
+margin-top: 5%;
+font-size: 110%;
+border-radius: 12pt;
+}
 
 /* Clear floats after the columns */
 
@@ -430,29 +422,6 @@ footer ul i {
     align-items: center;
     font-size: 14px;
     word-spacing: 2px;
-    
+    background-color: #FF9519;
  }
     
-.footer-menu{
-   text-align: center;
-   list-style:none;
-   margin:0;
-   padding:0;
-   background: #FF9519;
-}  
-
-.footer-menu li{
-    display: inline;
-}
- 
-.footer-menu a {
-   display: inline-block; 
-   padding: 10px;
-   color: white;
-}
-
-  
-.footer-menu ul li a:hover{
-    color:#2295c7; 
-}
-
