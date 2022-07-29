@@ -2,7 +2,7 @@
  Website for a fictional Cat Rescue and Adoption Shelter
 
 ## The Cat Ark Website
-### About
+### Aim of this Website
 
 The Cat Ark Website is a site that aims to bring awareness to a cat shelter in Galway, Ireland in order to garner donations, both in funding and in supplies. 
 It also shows the cats that are available to be adopted so people can be tempted into giving the cats in the shelter a new home. 
@@ -69,7 +69,6 @@ as it will provide the shelter with the space to rescue another cat that needs a
  The aim of this image is to encourage the user to get involved with the shelter as a volunteer so they can interact 
  with the cute kittens as well. The image of the happy girl may even entice the user to adopt a cat, so they can enjoy their own cat.
 
- ### Become A Member of Our Team 
  The heading of this section is a clickable link which brings the user to the contact-us page so they can easily enquire 
  about becoming involved with the cats at the shelter or as a fosterer. This is important to the shelter for it to be able to continue to run efficiently.
 
@@ -98,80 +97,145 @@ The Logo is a clickable link which will bring the user back to the home page.
 
 The user can reach the Cats for Adoption page two ways-by clicking on the heading of the section about adopting on the home page or by the navigation bar at the top of the page.
 
-## 
+## Contact Us Page
+
+[Screenshot of Contact Us Form and Submit Button](https://res.cloudinary.com/dhifyjuus/image/upload/v1659061800/The%20Cat%20Ark/Contact_Us_Form_and_Submit_Button_b7heck.png)
+
+The Contact Us Page consists of the same Logo, Navigation Bar and Footer as the other pages.
+It also consists of a form which, when filled out by the user will allow them to submit their details. This will in turn send their details to the Cat Ark so they can get back to them with prior knowledge of their query.
+This is an important part of the website as it will allow the user to register their interest at any time of the day or night, not just during business hours. This means that it is less likely that they will navigate away from the website, forgetting to return as opposed to leaving their details for future contact.
+
+The user is unable to submit the form without filling in the required fields. If they try they will be prompted to fill them in.
+As the form is not connected to a database as yet, the sucessful submission of details brings up a page by the Code Institute congratulating the user.
+
+[Screenshot of CI Successful Form Submission Page](https://res.cloudinary.com/dhifyjuus/image/upload/v1659061829/The%20Cat%20Ark/form_submit_result_zxihke.png)
+
+
+## Footer
+
+[Footer of The Cat Ark Website](https://res.cloudinary.com/dhifyjuus/image/upload/v1659061808/The%20Cat%20Ark/Footer_vxagwl.png)
+
+The footer of the website is the same across all pages, made up of the logo, an invitation to the user to visit The Cat Ark in Galway, Ireland or to follow them on social media, the links of which are also on the footer. Social media links are represented by their associated icons and when clicked, will bring the user to the relevant social site.
+Below the social media icons is the copyright symbol and the name of the webpage creator, backed in the same orange as the navigation bar, borders and buttons to tie the look of the website together.
+
+# Features I Would Implement in the Future
+
+If I were to develop this website further I might add some of the features in the below list:
+
+* Add a database to collect the information from the contact form.
+* Give the user the option for us to keep their contact details on file, to be sent newsletters etc
+* Add a method for the user to be able to donate to The Cat Ark straight from the website.
+* Add videos of the cats from inside the center, from the foster families, etc
+* Add a page for testimonials from happy volunteers and people who have adopted
+* Add a gallery of images from the shelter and cats. 
+
+# UX
+
+## User Stories
++ As a user I want:
+    1. to be able to find out about The Cat Ark- where it is and what they do
+    2. to be able to find my way around the website easily
+    3. to know how I can find out more 
+    4. to be able to apply to adopt or volunteer
+
++ As a site owner I want:
+    1. to encourage users to adopt, donate or volunteers
+    2. to drive users to contact us for more information
+    3. the website to be simple to use and navigate
+
+## Structure and Surface
+
+* The layout of the headers is kept simple and clean with logo written large and bold and the nav bar highlighted with orange which is known for drawing attention. Orange is also known as a fun, warm and exciting color.
+The background color is a soft, light grey which I think is warmer than a stark white. 
+* The home page has simple layout with images between each subject to break up the text and add interest for the user.
+* The Adopt a Cat page follows on with the same color scheme and font choices. It is also punctuated with images. A thin orange border around the media and descriptive lists adds a pop of color down through the page to the call-to-action orange click-here butons which carry the users straight to the contact form where the can apply to adopt.
+* On the form page the color scheme continues with thin orange borders and rounded edges on the input fields
+* The buttons change to blue when the user hovers the mouse over them, a little add of interest.
+* The footer echoes the page header, with centered logo and a line of orange going across. Social media icons also turn blue when the cursor hovers over them.  A darker grey is used as the background color for the footer to add some contrast.
+* Font used is Libre Franklin and Libre Baskerville from Google Fonts. Libre Franklin is sans-serif and simple whereas Libre Baskerville is a serif font which I think provides a strong contrast.
+
+# Wireframes
+
+[Balsamiq Wireframes Created during Planning Stage](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008818/The%20Cat%20Ark/desktop_wireframes_pg1_2_3_jdy9kx.png)(https://res.cloudinary.com/dhifyjuus/image/upload/v1659071374/The%20Cat%20Ark/Screenshot_2022-06-30_150152_obrnpk.png)
+
+* My project changed a little from the wireframe stage of planning.
 
 
 
+# Testing
 
+## Manual Testing
 
+* Desktop
+    * Pages all load and all page features are working.
+    * Tested and working as intended on Firefox and Chrome browsers.
+* Mobile
+    * Tested and working as intended on iPhone SE, iPhone 12, Samsung Galaxy S8 and Note.
+* Google Chrome Dev Tools
+    * Tested and working responsively on all available devices .
+* Links 
+    * All links clicked and all resulting in expected results  
 
+## Automated Testing
 
+[Screenshots of Validation Test Results HTML](https://res.cloudinary.com/dhifyjuus/image/upload/v1659003352/The%20Cat%20Ark/w3_html_index.html_validation_passed_bqzcbl.png)
+[Screenshots of Validation Test Results CSS](https://res.cloudinary.com/dhifyjuus/image/upload/v1659003343/The%20Cat%20Ark/w3_css_validation_passed_cwcbci.png)
+[Screenshots of Lighthouse Test Scores](https://res.cloudinary.com/dhifyjuus/image/upload/v1659008908/The%20Cat%20Ark/lighthouse_validation_for_page_contact_us_page_gi8pbk.png)
 
+## Validator Testing
+* HTML
+- No errors were returned when passing through the official W3C validator 
+* CSS
+- No errors were found when passing through the official W3C validator
+* Lighthouse used for general scores, passed
+### Unfixed Bugs
+* No unfixed bugs.
 
+# Deployment
 
-
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
-
-The Footer
-
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
-
-Gallery
-
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
-
-The Sign Up Page
-
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
+The site was deployed to GitHub pages. 
+The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab and choose Pages.
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+Issue I had when deploying: my project was private and so when I went into Github Pages the drop down list was not there. I had to go and make my project live before returning to continue deployong my website as directed.
 
-Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+The live link can be found here - [Link to Deployed Live Website](https://shellybrady.github.io/Portfolio-Project-One-The-Cat-Ark/index.html)
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
+# Credits
+
+## Content
+
+- Content written using information from www.alleycat.org and www.wikipedia.org
+- The icons in the footer were taken from Font Awesome.
+- The fonts were taken from Google Fonts https://fonts.google.com
+
+## Media
+- All images were taken from Pexels and Pixabay which are open source sites.
+
+## Code
+* Credit and Acknowledgement to the following sites for help with code or inspiration:
+- W3Schools for general html and css code.
+- Diffchecker to look compare code in my pages and find unclosed divs.
+- Stack Overflow, Code Institute, Css.Tricks for general information.
+- Foolishdeveloper.com for footer inspiration.
+- Cloudinary.com for hosting my media library.
+- Code Institute for README template.
+- amiresponsive? for image of deployed website of different devices.
+- Balsamiq for making wireframes.
+
+# Acknoledgements
+* I would like to thank the following for all the support and guidance:
+- The Code Institute, especially our facilitator Kenan.
+- The Slack Community, particularily the group I am lucky to be part of.
+- My awesome mentor Rahul, whose encouragement and guidance was so valuable.
+- My family, whose patience is much appreciated!
+
+
+
+
+
+
+
+
